@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  
+  margin: 0;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.search {
+  width: 100%;
+  height: 100%;
+
+  padding: 40px;
+}
+
+.search__form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin-bottom: 40px;
+}
+
+.search__error-msg {
+  margin: 0;
+  margin-bottom: 20px;
+
+  text-align: center;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: red;
+}

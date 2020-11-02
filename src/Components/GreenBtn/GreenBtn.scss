@@ -1,0 +1,22 @@
+.green-btn {
+  margin: 0;
+  margin-right: 20px;
+  padding: 8px;
+
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+
+  background-color: green;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+
+  transition: all ease .3s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
